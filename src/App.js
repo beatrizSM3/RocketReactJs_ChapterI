@@ -1,3 +1,7 @@
+import { RepositoryList } from './components/RepositoryList';
+import './styles/global.scss';
+
 export function App(){
-    return <h1>Hello world</h1>
+    //throw new Error("eita giovana o forninho caiu");
+    return <RepositoryList/>
 }
